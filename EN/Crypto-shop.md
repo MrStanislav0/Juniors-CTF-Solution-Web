@@ -1,6 +1,6 @@
-﻿# Крипто-магазин
+﻿# Crypto-shop
 
-Веб-сайт:
+Web-site:
 ![Site](/img/2.png)
 
 1. We go to the shop. What do we have? Cookies: wallet and gravitycoin; button "Оплатить и скачать".

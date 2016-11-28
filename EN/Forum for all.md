@@ -1,6 +1,6 @@
 ﻿# Forum for all
 
-Веб-сайт:
+Web-site:
 ![Site](/img/4.png)
 
 1. Go to the forum. See that many people have already tried XSS, etc. Have a lot inputs: 4 cookies, different forms and GET requests. To force participants to poerate them all very severely.

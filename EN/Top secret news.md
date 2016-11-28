@@ -1,6 +1,6 @@
 ﻿# Top secret news
 
-Веб-сайт:
+Web-site:
 ![Site](/img/3.png)
 
 1. Go to the news website, see news Windows and macOS. Try go to the tab LINUX.
